@@ -1,0 +1,17 @@
+body
+{
+    color:white;
+    background:wheat;
+}
+span {
+font-size: 30px;
+margin-left: auto;
+}
+
+p {
+    font-size:20px;
+}
+div {
+    font-size:25px;
+    color:goldenrod
+}

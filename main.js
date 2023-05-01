@@ -26,3 +26,4 @@ function classifyCanvas() {
     classifier.classify(canvas.gotResult);
 }
 
+

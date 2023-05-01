@@ -35,17 +35,18 @@
 
   </div>
 </div>
-<h1>Quick Draw</h1>
-<br>
 <h1>Quick Draw
-<button id="show_sketch" class="btn btn-info" data-toggle="modal" data-target="#myModal">Show Sketch</button>
+<br>
+<button id="your_sketch" class="btn btn-info" data-toggle="modal" data-target="#myModal">Show Sketch</button>
   </h1>
-<p class="your_sketch">Your Sketch</p> 
-<p class="confidence">Confidence</p>
-<div id="tobedrawn">Sketch to be Drawn<p>
-  <br>
+  <span class="tobedrawn">Sketch to be Drawn:<p></p>
+<p class="confidence">Confidence:</p>
+  <p class="your_sketch">Your Sketch:</p> 
   <span id="score">Score</span>
   <span id="time">Timer :</span>
+  <br>
+  <button class="btn btn-danger btn btn-lg " onclick="updateCanvas()">Clear Canvas</button>
+<br>
 
   
 </center> 
